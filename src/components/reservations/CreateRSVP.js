@@ -18,11 +18,8 @@ class CreateRSVP extends React.Component {
     this.setState({
       [id]: e.target.value
     });
-    (this.props);
     const nexState = { ...this.state, [e.target.id]: e.target.value };
-    this.checkAttributes(nexState)
-      ? ("Complete" + (this.state))
-      : ("Not complete" + (this.state));
+ 
     if (this.checkAttributes(nexState)) {
       this.setState({
         buttonStatus: "red lighten-2 btn white-text col s12",

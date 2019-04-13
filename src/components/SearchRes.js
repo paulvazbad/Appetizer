@@ -29,9 +29,6 @@ class SearchRes extends React.Component {
       possibleRestaurants: [e.target.value]
     });
   };
-  componentDidUpdate() {
-    (this.state);
-  }
   render() {
     return (
       <div className="section container">

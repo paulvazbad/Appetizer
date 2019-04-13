@@ -14,8 +14,6 @@ const initialState = {
 const rsvpReducer = (state = initialState, action) => {
   if (action.type === ADD_RSVP) {
     //check this lol
-    ("ADD_RSVP reducer");
-    (action.payload);
     let newState = Object.assign({}, state, {
       rsvps: state.rsvps.concat(action.payload)
     });

@@ -17,7 +17,6 @@ class RSVPList extends React.Component {
     server: null
   };
   componentWillMount() {
-    (this.props.restaurant_id);
     this.props.getRSVPS(this.props.restaurant_id);
     restaurant_id = this.props.restaurant_id;
   }

@@ -4,7 +4,6 @@ import RSVPList from "./reservations/RSVPList";
 
 class Restaurant extends React.Component {
   componentDidMount() {
-    (this.props.restaurant_id);
     if (!this.props.restaurant_id) {
       this.props.history.push("/login");
     }
